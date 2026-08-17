@@ -1,0 +1,9 @@
+/** @type {import('tailwindcss').Config} */
+export default {content:['./index.html','./src/**/*.{js,ts,jsx,tsx}'],theme:{extend:{colors:{
+brand:{50:'#fbf3f5',100:'#f4e2e7',200:'#e8c7d0',300:'#d8a0af',400:'#c17389',500:'#a95470',600:'#8e405d',700:'#73334c',800:'#5d2d42',900:'#4a2b37',950:'#2d1821'},
+ink:{50:'#faf8f7',100:'#eee8e5',200:'#ddd3ce',300:'#c7b8b1',400:'#9f8f8a',500:'#786970',600:'#65565e',700:'#54464d',800:'#44383e',900:'#31272b',950:'#1d1619'},
+success:{50:'#ecfdf5',100:'#d1fae5',200:'#a7f3d0',300:'#6ee7b7',400:'#34d399',500:'#10b981',600:'#059669',700:'#047857',800:'#065f46',900:'#064e3b'},
+warning:{50:'#fffbeb',100:'#fef3c7',200:'#fde68a',300:'#fcd34d',400:'#fbbf24',500:'#f59e0b',600:'#d97706',700:'#b45309',800:'#92400e',900:'#78350f'},
+danger:{50:'#fef2f2',100:'#fee2e2',200:'#fecaca',300:'#fca5a5',400:'#f87171',500:'#ef4444',600:'#dc2626',700:'#b91c1c',800:'#991b1b',900:'#7f1d1d'},
+violet:{50:'#f5f3ff',100:'#ede9fe',200:'#ddd6fe',300:'#c4b5fd',400:'#a78bfa',500:'#8b5cf6',600:'#7c3aed',700:'#6d28d9',800:'#5b21b6',900:'#4c1d95'}},
+fontFamily:{sans:['"DM Sans"','system-ui','sans-serif'],display:['"DM Serif Display"','Georgia','serif'],mono:['ui-monospace','monospace']},borderRadius:{xl:'0.875rem','2xl':'1.25rem','3xl':'1.75rem'},boxShadow:{soft:'0 16px 50px rgba(74,43,55,.07)',card:'0 20px 60px rgba(74,43,55,.1)',lift:'0 28px 80px rgba(74,43,55,.15)'},keyframes:{'fade-in':{from:{opacity:'0',transform:'translateY(8px)'},to:{opacity:'1',transform:'translateY(0)'}},'scale-in':{from:{opacity:'0',transform:'scale(.96)'},to:{opacity:'1',transform:'scale(1)'}},'slide-in-right':{from:{transform:'translateX(100%)'},to:{transform:'translateX(0)'}},shimmer:{'100%':{transform:'translateX(100%)'}}},animation:{'fade-in':'fade-in .5s ease-out both','scale-in':'scale-in .18s ease-out both','slide-in-right':'slide-in-right .3s cubic-bezier(.32,.72,0,1) both',shimmer:'shimmer 1.6s infinite'}}},plugins:[]};

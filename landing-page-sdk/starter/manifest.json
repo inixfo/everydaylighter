@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "name": "EverydayLighter Starter Funnel",
+  "version": "1.0.0",
+  "author": "EverydayLighter",
+  "sdkVersion": "2",
+  "entry": "dist/index.html",
+  "description": "Starter landing page package for EverydayLighter",
+  "capabilities": ["product", "offers", "checkout", "analytics"]
+}
